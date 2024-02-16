@@ -7,7 +7,7 @@
 #
 Name     : qt6imageformats
 Version  : 6.6.2
-Release  : 10
+Release  : 11
 URL      : https://download.qt.io/official_releases/qt/6.6/6.6.2/submodules/qtimageformats-everywhere-src-6.6.2.tar.xz
 Source0  : https://download.qt.io/official_releases/qt/6.6/6.6.2/submodules/qtimageformats-everywhere-src-6.6.2.tar.xz
 Summary  : No detailed summary available
