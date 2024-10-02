@@ -7,7 +7,7 @@
 #
 Name     : qt6imageformats
 Version  : 6.7.3
-Release  : 19
+Release  : 20
 URL      : https://download.qt.io/official_releases/qt/6.7/6.7.3/submodules/qtimageformats-everywhere-src-6.7.3.zip
 Source0  : https://download.qt.io/official_releases/qt/6.7/6.7.3/submodules/qtimageformats-everywhere-src-6.7.3.zip
 Summary  : No detailed summary available
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1727831611
+export SOURCE_DATE_EPOCH=1727893833
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -138,7 +138,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1727831611
+export SOURCE_DATE_EPOCH=1727893833
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/qt6imageformats
 cp %{_builddir}/qtimageformats-everywhere-src-%{version}/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/qt6imageformats/79453f55fa8ee32d7b95581473edcbfd043e088f || :
